@@ -3,7 +3,7 @@
 
 ## Docker images
 
-Images tagged `latest` (built from geOrchestra `master` branch) are available on [Docker hub](https://hub.docker.com/u/georchestra/). 
+Images tagged `latest` (built from geOrchestra `master` branch) are available on [Docker hub](https://hub.docker.com/u/georchestra/).
 
 
 ## Web archives (war)
@@ -11,9 +11,9 @@ Images tagged `latest` (built from geOrchestra `master` branch) are available on
 The latest generic webapps, as compiled by our CIs, are available here:
 
 - [master](https://packages.georchestra.org/wars-master/) for dev purposes only
-- [16.12](https://packages.georchestra.org/bot/wars/16.12/) is the latest stable release (recommended)
-- [15.12](https://packages.georchestra.org/bot/wars/15.12/) is the old stable
-
+- [17.12](https://packages.georchestra.org/bot/wars/17.12/) is the latest stable release (recommended)
+- [16.12](https://packages.georchestra.org/bot/wars/16.12/) is the old stable
+- [15.12](https://packages.georchestra.org/bot/wars/15.12/) is not supported anymore
 
 ## Debian packages
 
@@ -22,7 +22,7 @@ If you wish to use it, follow these steps:
 
  * Add the following line to your `/etc/apt/sources.list`,
 
-replace `<version>` by the desired geOrchestra version (`16.12` for the current
+replace `<version>` by the desired geOrchestra version (`17.12` for the current
 stable version, `master` for the development version):
 
 ```
@@ -75,4 +75,3 @@ The following services are provided:
 - [Maven generated site](site/)
 - [Jenkins CI (restricted access)](ci/)
 - [Buildbot CI for stable branchs (restricted access)](bot/)
-
